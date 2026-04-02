@@ -51,17 +51,17 @@ event-booking-system/
 Create `backend/.env`:
 
 ```bash
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb://localhost:27017/event-booking
 JWT_SECRET=your_jwt_secret_here
 STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
-CLIENT_URL=http://localhost:3000
+CLIENT_URL=http://localhost:3001
 ```
 
 Create `frontend/.env`:
 
 ```bash
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5001/api
 REACT_APP_STRIPE_PUBLISHABLE_KEY=pk_test_your_publishable_key
 ```
 
